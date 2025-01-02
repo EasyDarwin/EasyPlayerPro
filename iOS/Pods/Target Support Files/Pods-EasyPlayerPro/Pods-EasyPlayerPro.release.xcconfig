@@ -1,0 +1,9 @@
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Bugly" "${PODS_ROOT}/YYKit/Vendor"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AFNetworking" "${PODS_ROOT}/Headers/Public/IQKeyboardManager" "${PODS_ROOT}/Headers/Public/MJRefresh" "${PODS_ROOT}/Headers/Public/Masonry" "${PODS_ROOT}/Headers/Public/RTRootNavigationController" "${PODS_ROOT}/Headers/Public/ReactiveCocoa" "${PODS_ROOT}/Headers/Public/SDWebImage" "${PODS_ROOT}/Headers/Public/WHToast" "${PODS_ROOT}/Headers/Public/YYKit"
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking" "${PODS_CONFIGURATION_BUILD_DIR}/IQKeyboardManager" "${PODS_CONFIGURATION_BUILD_DIR}/MJRefresh" "${PODS_CONFIGURATION_BUILD_DIR}/Masonry" "${PODS_CONFIGURATION_BUILD_DIR}/RTRootNavigationController" "${PODS_CONFIGURATION_BUILD_DIR}/ReactiveCocoa" "${PODS_CONFIGURATION_BUILD_DIR}/SDWebImage" "${PODS_CONFIGURATION_BUILD_DIR}/WHToast" "${PODS_CONFIGURATION_BUILD_DIR}/YYKit"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"AFNetworking" -l"IQKeyboardManager" -l"MJRefresh" -l"Masonry" -l"RTRootNavigationController" -l"ReactiveCocoa" -l"SDWebImage" -l"WHToast" -l"YYKit" -l"c++" -l"sqlite3" -l"z" -framework "Accelerate" -framework "AssetsLibrary" -framework "Bugly" -framework "CoreFoundation" -framework "CoreGraphics" -framework "CoreImage" -framework "CoreText" -framework "Foundation" -framework "ImageIO" -framework "MobileCoreServices" -framework "QuartzCore" -framework "Security" -framework "SystemConfiguration" -framework "UIKit" -framework "WebP"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
