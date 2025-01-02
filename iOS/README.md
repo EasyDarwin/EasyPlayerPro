@@ -8,12 +8,10 @@ An elegant, simple, fast android RTSP/RTMP/HLS/HTTP Player.EasyPlayer support RT
 
 - EasyPlayerPro-Android: http://app.tsingsee.com/EasyPlayerPro
 - EasyPlayerPro-iOS: AppStore搜索EasyPlayerPro
+
 ## 技术支持 ##
 
-- 邮件：[support@tsingsee.com](mailto:support@tsingsee.com) 
-
-> IJKMediaFramework.framework下载地址: https://pan.baidu.com/s/1psf3qoRaeGrjhNV4oCGUWQ  密码: 85og
-
+- 邮件：[support@easydarwin.org](mailto:support@easydarwin.org) 
 
 ## 获取更多信息 ##
 
